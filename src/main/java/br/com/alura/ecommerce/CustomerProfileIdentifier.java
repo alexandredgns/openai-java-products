@@ -1,4 +1,4 @@
-package br.com.alura.ecommerce.models;
+package br.com.alura.ecommerce;
 
 import com.knuddels.jtokkit.Encodings;
 import com.knuddels.jtokkit.api.ModelType;
@@ -11,7 +11,6 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.time.Duration;
 import java.util.Arrays;
-import java.util.Scanner;
 
 public class CustomerProfileIdentifier {
     public static void main(String[] args) {
@@ -24,7 +23,7 @@ public class CustomerProfileIdentifier {
                     Cliente - descreva o perfil do cliente em tres palavras
                     """;
 
-            var user = getClientsFromFile("lista_de_compras_100_clientes.csv");
+            var user = getClientsFromFile("customer_shoplist/lista_de_compras_100_clientes.csv");
 
         var tokenCount = countTokens(user);
         System.out.println("Token Count: " + tokenCount);

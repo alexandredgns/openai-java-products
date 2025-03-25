@@ -1,4 +1,4 @@
-package br.com.alura.ecommerce.models;
+package br.com.alura.ecommerce;
 
 import com.knuddels.jtokkit.Encodings;
 import com.knuddels.jtokkit.api.*;

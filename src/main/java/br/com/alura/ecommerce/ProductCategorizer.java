@@ -1,4 +1,4 @@
-package br.com.alura.ecommerce.models;
+package br.com.alura.ecommerce;
 
 import com.theokanning.openai.completion.chat.ChatCompletionRequest;
 import com.theokanning.openai.completion.chat.ChatMessage;
